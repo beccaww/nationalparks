@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header role="banner"><h1>Find National Parks by State</h1></header>
+    <section>
+      <form id="js-form">
+            <label for="search-state">Search state</label>
+            <input type="text" name="search-state" id="js-search-state" required>
+
+            <label for="max-results">Maximum results to return</label>
+            <input type="number" name="max-results" id="js-max-results" value="10">
+
+            <input type="submit" value="Go!">
+      </form>
+    </section>
+    <ul id="results-list" class="results hidden">Results</ul>
+    <script src="index.js"></script>
+  </body>
+</html>
