@@ -50,6 +50,9 @@ function displayResults(responseJson) {
       `<li>
         <h3>${park.name}</h3>
         <p>${park.description}</p>
+        <p>${park.url}</p>
+        <p>${park.directionsInfo}</p>
+        <p>${park.latLong}</p>
        </li>`
     );
   });
